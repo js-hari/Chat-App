@@ -8,6 +8,7 @@ function App(){
     Hello , welcome to the chat App...
       
       <Maincontainer />
+    Thank you for visiting the app.
     </div>
   );
 }
