@@ -7,7 +7,6 @@ function App(){
     <div className="App">
     
       <Maincontainer />
-    Thank you for visiting the app.
     </div>
   );
 }
