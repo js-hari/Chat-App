@@ -5,7 +5,7 @@ import Maincontainer from "./components/Maincontainer";
 function App(){
   return (
     <div className="App">
-    Hello, welcome to the chat App.
+    Hello,welcome to the chat app.
       <Maincontainer />
     </div>
   );
