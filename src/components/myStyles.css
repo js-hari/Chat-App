@@ -73,7 +73,7 @@
 
 
 
-.chat-container{
+.chatArea-container{
     background-color: aliceblue;
     flex: 0.7;
 }
@@ -110,4 +110,28 @@
     padding: 5px 10px;
     margin: 6px 10px 10px 10px;
     flex: 1;
+}
+
+
+.chatArea-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chatArea-header{
+display: flex;
+align-items: center;
+gap: 0.5rem;
+
+}
+
+
+.messages-container{
+    background-color: azure;
+    flex: 1;/*to occupy the maximum available height*/
+}
+
+.text-input-area{
+    background-color: red;
 }

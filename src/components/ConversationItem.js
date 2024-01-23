@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export default function ConversationItem({props}) {
+export default function ConversationsItem({props}) {
   return (
     <div className="conversation-container">
         <p className='con-icon'>{props.name[0]}</p>
